@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.buttons button {
+  padding: 10px 15px;
+  margin-right: 20px;
+  cursor: pointer;
+  color: #fff;
+  background: rgb(0, 143, 251);
+  outline: none;
+  border: none;
+  border-radius: 10px;
+}
+
+.languageSelected {
+  display: flex;
+  gap: 30px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.languageSelected button {
+  padding: 10px 20px;
+  outline: none;
+  color: #fff;
+  background: rgb(0, 143, 251);
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.currencyInfo {
+  display: flex;
+  gap: 20px;
+}
+
+.currencyInfo h1 {
+  color: rgb(0, 143, 251);
+  font-size: 40px;
+}
